@@ -1,0 +1,14 @@
+body {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.visibilite {
+  margin-bottom: 20px;
+}
+
+#information {
+  background-color: yellow;
+  text-align: center;
+}
