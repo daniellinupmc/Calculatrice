@@ -57,7 +57,7 @@ document.getElementsByClassName("calculer")[0].addEventListener("click", functio
       alert(msg);
     } else {
       var select = document.getElementById("operateur");
-      alert(document.getElementById("nombre1").value+select.options[select.selectedIndex].text+document.getElementById("nombre2").value +"="+res.toString());
+      alert(document.getElementById("nombre1").value+select.options[select.selectedIndex].innerHTML+document.getElementById("nombre2").value +"="+res.toString());
     }
 });
 
